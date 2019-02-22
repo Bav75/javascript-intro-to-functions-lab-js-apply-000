@@ -17,7 +17,19 @@ function logWhisper(string) {
 }
 
 function sayHiToGrandma(string) {
+
+  var comparsionText = "I love you, Grandma.";
+
   if (string === whisper(string)) {
     return "I can't hear you!";
   }
+
+  else if (string === shout(string)) {
+    return "YES INDEED!";
+  }
+
+  else if (string === comparsionText) {
+    return "I love you, too.";
+  }
+
 }
